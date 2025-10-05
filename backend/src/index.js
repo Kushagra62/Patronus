@@ -11,7 +11,8 @@ dotenv.config()
 
 
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
+const __dirname = path.resolve();
 
 connectDB();
 
